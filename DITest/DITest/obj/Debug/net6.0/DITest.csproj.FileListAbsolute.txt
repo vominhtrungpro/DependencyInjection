@@ -1,0 +1,15 @@
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.csproj.AssemblyReference.cache
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.AssemblyInfoInputs.cache
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.AssemblyInfo.cs
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.csproj.CoreCompileInputs.cache
+C:\Users\Trung.Vo\source\repos\DITest\DITest\bin\Debug\net6.0\DITest.exe
+C:\Users\Trung.Vo\source\repos\DITest\DITest\bin\Debug\net6.0\DITest.deps.json
+C:\Users\Trung.Vo\source\repos\DITest\DITest\bin\Debug\net6.0\DITest.runtimeconfig.json
+C:\Users\Trung.Vo\source\repos\DITest\DITest\bin\Debug\net6.0\DITest.dll
+C:\Users\Trung.Vo\source\repos\DITest\DITest\bin\Debug\net6.0\DITest.pdb
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.dll
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\refint\DITest.dll
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.pdb
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\DITest.genruntimeconfig.cache
+C:\Users\Trung.Vo\source\repos\DITest\DITest\obj\Debug\net6.0\ref\DITest.dll
