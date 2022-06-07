@@ -13,16 +13,36 @@ class Program
     }
     public class clientservice
     {
-        public person1 client;
-        public clientservice(person1 client)
+        public iclient client;
+        //public clientservice(iclient client)
+        //{
+        //    this.client = client;
+        //}
+        //public List<Person> getallclient()
+        //{
+        //    return client.selectallclient();
+        //}
+        public List<Person> getallclient(iclient _client) //inject interface vào method
         {
-            this.client = client;
-        }
-        public List<Person> getallclient()
-        {
+            client = _client;
             return client.selectallclient();
         }
     }
+    //public class clientservice2
+    //{
+    //    public iclient client;
+        
+    //    public iclient clientdata
+    //    {
+    //        set { client = value; }
+    //        get { return client; }
+    //    }
+    //    public List<Person> getallclient()
+    //    {
+    //        return client.selectallclient();
+    //    }
+    //}
+
     public interface iclient
     {
         List<Person> selectallclient();
@@ -58,8 +78,10 @@ class Program
 
     static void Main(string[] args)
     {
-        clientservice client = new clientservice(new person1());
-        List<Person> ListEmployee = client.getallclient();
+        //clientservice client = new clientservice(new person2());
+        clientservice clientservice = new clientservice();
+        //List<Person> ListEmployee = client.getallclient();
+        List<Person> ListEmployee = clientservice.getallclient(new person2());
         foreach (Person emp in ListEmployee)
         {
             Console.WriteLine("ID = {0}, Name = {1}", emp.ID, emp.Name);
